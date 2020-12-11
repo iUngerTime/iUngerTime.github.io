@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="/assets/css/styles.min.css">
 </head>
 
-<body>
+<body style="background: #dedede;">
     <nav class="navbar navbar-dark navbar-expand-lg fixed-top portfolio-navbar myGradient">
         <div class="container"><a class="navbar-brand logo" href="/index.html">Brenton Unger II</a><button data-toggle="collapse" class="navbar-toggler" data-target="#navbarNav"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon"></span></button>
             <div class="collapse navbar-collapse" id="navbarNav">
@@ -32,12 +32,12 @@
                 <div class="heading">
                     <h2>Contact me</h2>
                 </div>
-                <form style="border-style: solid;border-color: #071330;border-radius: 10px;">
-                    <div class="form-group"><label for="name">Your Name</label><input class="form-control item" type="text" id="name"></div>
-                    <div class="form-group"><label for="subject">Subject</label><input class="form-control item" type="text" id="subject"></div>
-                    <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email"></div>
-                    <div class="form-group"><label for="message">Message</label><textarea class="form-control item" id="message"></textarea></div>
-                    <div class="form-group"><button class="btn btn-primary btn-block btn-lg" type="submit">Submit Form</button></div>
+                <form style="border-style: solid;border-color: #071330;border-radius: 10px;background: #ffffff;" data-bss-recipient="0857d94dad962e355c8ca65ca784807e" data-bss-subject="Message From Portfolio Website">
+                    <div class="form-group"><label for="name">Your Name</label><input class="form-control item" type="text" id="name" required=""></div>
+                    <div class="form-group"><label for="subject">Subject</label><input class="form-control item" type="text" id="subject" required=""></div>
+                    <div class="form-group"><label for="email">Email</label><input class="form-control item" type="email" id="email" required=""></div>
+                    <div class="form-group"><label for="message">Message</label><textarea class="form-control item" id="message" required=""></textarea></div>
+                    <div class="form-group"><button class="btn btn-dark btn-block btn-lg" type="submit">Submit Form</button></div>
                 </form>
             </div>
         </section>
@@ -50,6 +50,7 @@
     </footer>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/assets/js/smart-forms.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/pikaday/1.6.1/pikaday.min.js"></script>
     <script src="/assets/js/script.min.js"></script>
 </body>
